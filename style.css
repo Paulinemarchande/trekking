@@ -1,0 +1,333 @@
+.randonee{
+background-image: url("images/paysage.png");
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.elementsNav>ul{
+list-style-type: none;
+}
+
+.elementsNav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.liste{
+    display: flex;
+    justify-content:flex-end ;
+    color: white;
+}
+
+.elementsNav>ul>li{
+    margin-right: 80px; ;
+}
+
+.texteMenu{
+    color: white;
+    height: 120px;
+    width: 700px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+.cadreGris{
+    height: 100px;
+    background-color:#F5F6F7;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.cases{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.seeAll{
+    background-color: #AA9C77;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.numeroPagemen{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+.men{
+    font-size: 150%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.produitsMen{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.teeshirtHomme{
+    height: 380px;
+    width: 320px;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+}
+
+.sizeColor{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.size{
+    display: flex;
+    padding: 20px;
+}
+
+.ronds{
+    display: flex;
+}
+
+#bleu{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: #2D5DB3;
+}
+#jaune{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: #FBE75D;
+}
+#noir{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: #535253;
+}
+
+.imageTeeshirt{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.lignePrix{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#nomProduit{
+    color: #AA9C77;
+}
+
+.pantalontHomme{
+    height: 380px;
+    width: 320px;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+}
+
+.imagePantalon{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.sacHomme{
+    height: 380px;
+    width: 320px;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+}
+
+.imageSac{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.numeroPagewomen{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+
+.women{
+    font-size: 150%;
+    margin-right: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.produitsWomen{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.menteauFemme{
+    height: 380px;
+    width: 320px;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+}
+
+.imageMenteau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.chaussureFemme{
+    height: 380px;
+    width: 320px;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+}
+
+.imageChaussure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.teeshirtFemme{
+    height: 380px;
+    width: 320px;
+    background-color: #F5F6F7;
+    border-radius: 5px;
+}
+
+#rose{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: #CCA9AC;
+}
+#blanc{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+}
+
+.imageTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.cadreAboutus{
+    height: 400px;
+    background-color:#A79C7B ;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.titre{
+    color: #625E54;
+    display: flex;
+    align-items: center;
+    margin-top: -220px;
+}
+
+.paragraphe{
+    color: #625E54;
+    border: #95896C solid 1px;
+    width: 700px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+}
+
+.twitter{
+    color: black;
+  padding-left: 80px;
+  background-color: #535253;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+footer{
+    background-color: #424242;
+    height: 400px;
+}
+
+.texte{
+    color: white;
+    height: 200px;
+    width: 400px;
+    margin-left: 80px;
+    padding-top: 150px;
+}
+
+.title{
+    font-size: 150%;
+    padding-bottom: 20px;
+}
+
+.parag{
+    font-size: 80%;
+}
+
+.menu a{
+    color: white ;
+    text-decoration: none;
+}
+
+.menu{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 80px;
+   padding-top: 20px;
+}
